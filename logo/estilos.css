@@ -1,0 +1,55 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: coral;
+}
+  
+html, body{
+    height: 100%;
+    max-height: 100;
+}
+
+.flex-container {
+    display: flex;
+    height: 100%;
+    background-color: white;
+}
+
+.containter {
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+}
+
+.ball {
+    border-radius: 50%;
+    border: 3px solid red;
+    width:400px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+}
+
+.ball--color{
+    background:linear-gradient( 
+        0deg,
+        red,
+        50%,
+        red 20%
+    );
+    border-radius: 50%;
+    box-shadow: 3px 2px 19px 0px red;
+}
+
+.ball--white {
+    background: white;
+    height: 210px;
+    width: 210px;
+}
+
+.ball--red {
+    width: 50px;
+    background: red;
+    height: 50px;
+}
